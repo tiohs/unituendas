@@ -95,3 +95,17 @@ nav .navbar-brand {
 nav .navbar-brand div .blue {
   color: #007bff;
 }
+
+.blue {
+  color: #007bff;
+}
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1370px !important;
+}
+}
+
+.planos {
+  padding: 30px ;
+}
+
