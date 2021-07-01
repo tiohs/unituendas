@@ -16,6 +16,7 @@ nav .navbar-collapse ul li a {
 }
 nav .navbar-collapse ul li {
   padding: 9px 15px;
+  
 }
 nav .navbar-collapse ul li a:hover {
   color: #007bff !important;
@@ -24,6 +25,12 @@ nav .navbar-collapse ul li a:hover {
 nav .navbar-collapse ul li a.active {
   color: #007bff !important;
 }
+
+nav .navbar-collapse ul li.active {
+  border-bottom: 1px solid #007bff;
+  
+}
+
 
 
 
