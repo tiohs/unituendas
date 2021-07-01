@@ -12,8 +12,33 @@ body {
 }
 
 #home-quote {
-  background: url('../img/bg-quote.jpg') center center;
+  background: linear-gradient(rgba(27,33,38,0.52),rgba(27,33,38,0.62)),url('../img/img-office-bg.jpg') center center;
+
   background-size: cover;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.barnnerAGT {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+div.barnnerAGT .info {
+  margin-left: 5px;
+  color: #8792a1;
+}
+div.barnnerAGT .info span{
+  display: block;
+  font-size: 14px;
+}
+div.barnnerAGT .info strong {
+  display: block;
+  font-size: 14px;
+
 }
 
 @media (max-width: 767px) {
@@ -40,7 +65,14 @@ nav .navbar-brand img {
   width: 50px;
 }
 
-div.header img.logo {
-  width: 300px;
-  height: 300px;
+nav .navbar-collapse {
+  padding: 0 50px;
+}
+
+nav .navbar-brand {
+  padding: 0 50px;
+}
+
+nav .navbar-brand div .blue {
+  color: #007bff;
 }
