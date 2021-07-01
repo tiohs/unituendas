@@ -109,3 +109,8 @@ nav .navbar-brand div .blue {
   padding: 30px ;
 }
 
+.noplano {
+  color: #ccc;
+  background: none;
+  text-decoration: line-through;
+}
