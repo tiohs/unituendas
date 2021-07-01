@@ -10,6 +10,23 @@ body {
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.05),
               0 4px 8px 0 rgba(0,0,0,.05);
 }
+nav .navbar-collapse ul li a {
+  font-size: 16px;
+  color: #52565F !important;
+}
+nav .navbar-collapse ul li {
+  padding: 9px 15px;
+}
+nav .navbar-collapse ul li a:hover {
+  color: #007bff !important;
+}
+
+nav .navbar-collapse ul li a.active {
+  color: #007bff !important;
+}
+
+
+
 
 #home-quote {
   background: linear-gradient(rgba(27,33,38,0.52),rgba(27,33,38,0.62)),url('../img/img-office-bg.jpg') center center;
@@ -26,6 +43,7 @@ div.barnnerAGT {
   justify-content: center;
   align-items: center;
   padding: 10px 0;
+  border-bottom: 1px solid #8792a1;
 }
 div.barnnerAGT .info {
   margin-left: 5px;
