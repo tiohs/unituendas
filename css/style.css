@@ -27,17 +27,11 @@ nav .navbar-collapse ul li a.active {
 }
 
 nav .navbar-collapse ul li.active {
-  border-bottom: 1px solid #007bff;
-  
+  border-bottom: 1px solid #007bff;  
 }
-
-
-
-
 
 #home-quote {
   background: linear-gradient(rgba(27,33,38,0.52),rgba(27,33,38,0.62)),url('../img/img-office-bg.jpg') center center;
-
   background-size: cover;
   height: 60vh;
   display: flex;
