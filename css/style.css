@@ -39,6 +39,9 @@ nav .navbar-collapse ul li.active {
   align-items: center;
   justify-content: center;
 }
+#home-quote button.teste {
+  padding: 16px 22px;
+}
 
 div.barnnerAGT {
   display: flex;
